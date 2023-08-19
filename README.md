@@ -17,7 +17,7 @@ The application includes a feature to show a popup reminder when the time of a t
 ## Installation
 
 1. Clone the repository: 
-   git clone https://github.com/iamipheco/JavaScript_Capstone_Project_TodoList_App_Anyaefiena_Ifechukwu.git
+   `git clone` https://github.com/iamipheco/JavaScript_Capstone_Project_TodoList_App_Anyaefiena_Ifechukwu.git
 
     
 2. Open the `index.html` file in your web browser to launch the application.
