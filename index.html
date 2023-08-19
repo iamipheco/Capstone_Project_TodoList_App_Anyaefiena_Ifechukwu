@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+        <title>Todo App</title>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <i class="fas fa-check-circle"></i>
+                    <span class="logo-name">BlueTodo</span>
+                </div>
+                <ul class="nav-links">
+                    <li id="add-task-link" class="active"><a href="#">Add Task</a></li>
+                    <li id="view-task-link">
+                        <a href="#">View Task</a>
+                        <span id="taskCount">0</span>
+                    </li>
+                    <li id="contact-link"><a href="#">Contact</a></li>
+                    <div class="popupTask"></div>
+                </ul>
+            </nav>
+            <div id="content" class="content"></div>
+        </div>
+        <script src="styles/app.js"></script>
+    </body>
+</html>

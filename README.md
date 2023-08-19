@@ -1,20 +1,60 @@
-##This is a project template for LMTechub students. ##Few steps to get started
+# To-Do List Web Application
 
-- Clone the repository in the created folder for your project using: "git clone git@github.com:promise-J/LMTechub_Javascript_Template.git ./"
-- Run rm -fr .git to destroy any previous git connection with the cloned remote repo
-- From the terminal in your project folder, run the command "npm install" (You should see a generated node_modules folder)
-- create a new branch feature using "git branch feature" then check out to the branch
-- MAKE SURE YOU DO NOT COMMIT TO THE MAIN BRANCH
-- Follow the project layout in adding your HTML, CSS AND Images to the project
-- To test your lint check for HTML run "npm run lint:html"
-- To test your lint check for CSS run "npm run lint:css"
-- To test your lint check for both HTML and CSS files (both HTML and CSS) run "npm run lint:all"
-- To test your lint check for Javascript run "npm run js-lint"
-- To fix your lint error/warnings for css files run "npm run fix:lint:css"
-- To fix your lint error/warnings for javascript files run "npm run js-lint-fix"
-- Only when your lints checks are completed, get started to git, link to your remote repository, commit changes, push changes.
-- After changes have been pushed, make a pull request between the feature branch and the main branch.
+This is a Single Page Application (SPA) that allows users to manage tasks through a simple and intuitive interface.
 
-Make sure to update this README.md file with the usual as in the HTML/CSS Module. Tag your instructor and supervisor.
-Feel free to create a file(s) as the need arises.
-Remember to add okechukwupromise638@gmail.com to review
+## Project Overview
+
+The To-Do List Web Application consists of three main sections:
+
+1. **Add Task**: Users can add new tasks by entering a task description and time. Tasks are added to the list in ascending order based on their creation time.
+
+2. **View Tasks**: Displays the list of tasks in ascending order. Users can mark tasks as completed, edit task descriptions, delete tasks individually, or clear all completed tasks at once.
+
+3. **Contact**: Provides contact information, including your name, email, WhatsApp contact, and GitHub account links.
+
+The application includes a feature to show a popup reminder when the time of a task matches the current local time.
+
+## Installation
+
+1. Clone the repository: 
+   git clone https://github.com/iamipheco/JavaScript_Capstone_Project_TodoList_App_Anyaefiena_Ifechukwu.git
+
+    
+2. Open the `index.html` file in your web browser to launch the application.
+
+## Usage
+
+1. **Add Task**: Click on the "Add Task" section. Enter the task description and time, then click the "Add Task" button or press Enter.
+
+2. **View Tasks**: Click on the "View Task" section to see the list of tasks. Use the checkboxes to mark tasks as completed. Edit and delete buttons are available for each task.
+
+3. **Clear Completed**: Click the "Clear Completed" button to remove all marked/completed tasks from the list.
+
+4. **Popup Reminder**: If a task's time matches the current local time, a popup reminder will be displayed, informing you of the task. The popup will remain and dissapears 5 minutes for that task is elapsed.
+
+5. **Contact**: Click on the "Contact" section to view my contact information, including social media links.
+
+## Code Explanation
+
+- `index.html`: The main HTML structure of the application, containing different sections and the necessary scripts and styles.
+
+- `style.css`: The stylesheet containing the design and layout of the application.
+
+- `app.js`: The JavaScript file responsible for managing the application's functionality, including adding tasks, displaying tasks, editing tasks, handling popups, and more.
+
+[View LIVE Site](https://iamipheco.github.io/JavaScript_Capstone_Project_TodoList_App_Anyaefiena_Ifechukwu)
+
+## Acknowledgement
+
+- Mr Tony Dilibe
+
+- Mrs Ngozi
+
+- Mr Ekene
+
+- Mr Okechukwu Promise
+
+- Mr Patrick
+
+
+## This is a work of LM TechHub.
