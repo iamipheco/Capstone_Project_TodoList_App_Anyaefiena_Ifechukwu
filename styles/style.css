@@ -354,9 +354,47 @@
       margin-bottom: 5px;
     }
 
+    
+  }
+
+  
+  @media screen and (max-width: 550px) {
+
+    .container{
+      padding-top: 200px;
+    }
+
+
     .popupTask {
-      top: 18%;
+      top: 40%;
       right: 7%;
     }  
   }
-  
+
+  @media screen and (max-width: 450px) {
+
+    .container{
+      padding-top: 200px;
+    }
+
+
+    .popupTask {
+      top: 31%;
+      right: 7%;
+    }  
+  }
+
+  @media screen and (max-width: 390px) {
+
+    .container{
+      padding-top: 200px;
+    }
+
+
+    .popupTask {
+      top: 34%;
+      right: 7%;
+    }  
+  }
+
+
