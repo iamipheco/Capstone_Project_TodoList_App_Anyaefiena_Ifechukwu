@@ -99,8 +99,16 @@ document.addEventListener('DOMContentLoaded', function () {
                   <a href="https://www.linkedin.com/in/Iamipheco/"><i class="fab fa-linkedin"></i></a>
                   <a href="https://www.x.com/iam_ipheco/"><i class="fab fa-twitter"></i></a>
                   <a href="https://www.instagram.com/Iamipheco/"><i class="fab fa-instagram"></i></a>
+                  <a href="https://github.com/iamipheco/"><i class="fab fa-github"></i></a>
                 </div>
               </div>
+          </div>
+          <div class='footer-page'> 
+              Capstone Project Powered by LmTech Hub  
+              <br/> 
+              Project by ANYAEFIENA IFECHUKWU C.M
+              <br />
+              &copy 2023
           </div>
         </div>
     `;
@@ -273,7 +281,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
   
-
   function showPopup(task) {
     popupTask.innerHTML = `
       <div class="popup-content">
@@ -294,6 +301,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
   setInterval(checkTaskPopup, 60000); 
 
-  
   loadPage('add-task');
 });
